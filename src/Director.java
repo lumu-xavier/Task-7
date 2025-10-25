@@ -1,4 +1,8 @@
 public final class Director extends Manager {
+    public Director(String companyName, double salary, String name, double bonus) {
+        super(companyName, salary, name, bonus);
+    }
+
     public Director(double salary, String name, double bonus) {
         super(salary, name, bonus);
     }

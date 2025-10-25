@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Manager mgr = new Manager(70000000, "LUMU", 1000000);
+        Manager mgr = new Manager("Mega",70000000, "LUMU", 1000000);
         mgr.showCompany();
         mgr.displayDetails();
         System.out.println();
