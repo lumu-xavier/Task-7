@@ -1,7 +1,13 @@
 public class Employee {
-    final String companyName = "SmartLife Ltd";
+    String companyName;
     double salary;
     String name;
+
+    public Employee(String companyName, double salary, String name) {
+        this.companyName = companyName;
+        this.salary = salary;
+        this.name = name;
+    }
 
     public Employee(double salary, String name) {
         this.salary = salary;
