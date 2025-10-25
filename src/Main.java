@@ -9,6 +9,7 @@ public class Main {
         dr.showCompany();
         dr.displayDetails();
         dr.makeDecisions();
+        dr.Dir();
 
     }
 }
